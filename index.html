@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>С днём рождения, любовь моя ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="heart-icon">❤️</div>
+
+            <p class="small-title">
+                Для самого любимого человека
+            </p>
+
+            <h1>
+                С днём рождения,
+                <span>котёнышь</span>
+            </h1>
+
+            <p class="hero-description">
+                Сегодня весь мир должен улыбаться,
+                потому что именно в этот день появилась ты.
+            </p>
+
+            <button class="main-button" onclick="startExperience()">
+                Открыть сюрприз ❤️
+            </button>
+
+        </div>
+
+        <div class="scroll-hint">
+            ↓
+        </div>
+
+    </section>
+
+
+    <!-- ENVELOPE -->
+    <section class="envelope-section">
+
+        <div class="section-heading">
+
+            <p>Для тебя</p>
+
+            <h2>
+                У меня есть кое-что сказать...
+            </h2>
+
+        </div>
+
+
+        <div class="envelope-wrapper" onclick="openEnvelope()">
+
+            <div class="envelope">
+
+                <div class="envelope-back"></div>
+
+
+                <!-- LETTER -->
+                <div class="letter-paper">
+
+                    <div class="letter-content">
+
+                        <div id="typingText" class="typing-text"></div>
+
+                        <div id="signature" class="letter-signature">
+                            С любовью ❤️
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="envelope-front"></div>
+
+                <div class="envelope-flap"></div>
+
+                <div class="heart-seal">
+                    ❤️
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <p class="envelope-hint">
+            Нажми на конверт 💌
+        </p>
+
+    </section>
+
+
+    <!-- MEMORIES -->
+    <section class="memories">
+
+        <div class="section-heading">
+
+            <p>Наши моменты</p>
+
+            <h2>
+                Маленькие воспоминания
+            </h2>
+
+        </div>
+
+
+        <div class="memory-grid">
+
+            <div class="memory-card">
+                <div class="memory-image">
+                    <img src="assets/1.jpg" alt="" style="height: 100%; object-fit: cover;">
+                </div>
+                <h3>Твои улыбки</h3>
+                <p>
+                    Я могу смотреть на них бесконечно.
+                </p>
+            </div>
+
+
+            <div class="memory-card">
+                <div class="memory-image">
+                    <img src="assets/2.jpg" alt="" style="height: 100%; object-fit: cover;"></div>
+                <h3>Наши моменты</h3>
+                <p>
+                    Каждая мелочь рядом с тобой становится особенной.
+                </p>
+            </div>
+
+
+            <div class="memory-card">
+                <div class="memory-image">
+                    <img src="assets/3.jpg" alt="" style="height: 100%; object-fit: cover;">
+                </div>
+                <h3>Ты и я</h3>
+                <p>
+                    Самое прекрасное сочетание.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CAKE -->
+    <section class="cake-section">
+
+        <div class="section-heading">
+
+            <p>Загадай желание</p>
+
+            <h2>
+                А теперь задуй свечи 🎂
+            </h2>
+
+        </div>
+
+
+        <div class="cake">
+
+            <div class="candles">
+
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+
+            </div>
+
+
+            <div class="cake-top"></div>
+
+            <div class="cake-body">
+
+                <div class="cake-decoration"></div>
+                <div class="cake-decoration"></div>
+                <div class="cake-decoration"></div>
+
+            </div>
+
+        </div>
+
+
+        <button class="main-button cake-button" onclick="blowCandles()">
+            Задуть свечи ✨
+        </button>
+
+
+        <p id="wishMessage" class="wish-message">
+            Загадай самое заветное желание...
+        </p>
+
+    </section>
+
+
+    <!-- FINAL -->
+    <section class="final">
+
+        <div class="final-content">
+
+            <div class="huge-heart">
+                ❤️
+            </div>
+
+            <h2>
+                Я люблю тебя
+            </h2>
+
+            <p>
+                Сегодня, завтра и каждый день после этого.
+            </p>
+
+            <span>
+                С днём рождения, моя Любовь, моя Принцесса ❤️
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
